@@ -1,0 +1,10 @@
+import = [
+{
+    table = "PAL_SQL.PAL_KMEANS::kmeans.CUSTOMERS"; 
+    schema = "ML_KMEANS"; 
+    file = "PAL_SQL.PAL_KMEANS:CUSTOMERS.csv";
+    header = true;
+    delimField = ","; 
+    delimEnclosing = "\"";
+}
+];

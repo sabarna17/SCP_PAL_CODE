@@ -1,0 +1,27 @@
+namespace PAL_SQL.PAL_APRIORI;
+@Schema: 'ML_APRIORI' 
+context apriori {
+   type myKeyType: String(60);
+   Entity FCTCUSTOMERORDER{
+     key "ORDERID": Integer NOT NULL;
+	 key "PRODUCTID": Integer NOT NULL;
+	 key "CUSTOMERID": Integer NOT NULL;
+	 "EMPLOYEEID": Integer NOT NULL;
+	 "PROMOTIONID": Integer ;
+	 "TERRITORYID": Integer ;
+	 "ORDERPERIODID": Integer NOT NULL;
+	 "REQUIREDPERIODID": Integer NOT NULL;
+	 "SHIPPEDPERIODID": Integer NOT NULL;
+	 "SHIPPERID": Integer;
+	 "UNITPRICE": Decimal(19,4);
+	 "QUANTITY": Integer NOT NULL;
+	 "DISCOUNT": Decimal(19,10) ;
+	 "UNITSALES": Decimal(19,2) ;
+	 "NETSALES": Decimal(19,2) ;
+	 "UNITCOST": Decimal(19,4) ;
+	 "FREIGHT": BinaryFloat ;
+	 "COST": Decimal(19,4);
+	 "QUANTITYORDERED": Integer;
+	 "DELIVEREDPERIODID":Integer;
+   };
+};

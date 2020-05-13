@@ -1,0 +1,13 @@
+namespace PAL_SQL.PAL_LIN_REG;
+@Schema: 'ML_LIN_REG' 
+context linear_regression {
+   type myKeyType: String(60);
+   Entity CUSTOMERS{
+       key "ID": Integer NOT NULL;
+	 "CUSTOMER": String(60);
+	 "LIFESPEND": BinaryFloat ;
+	 "NEWSPEND": BinaryFloat ;
+	 "INCOME": BinaryFloat ;
+	 "LOYALTY": BinaryFloat ;  
+   };
+};

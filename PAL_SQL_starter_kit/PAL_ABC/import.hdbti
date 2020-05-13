@@ -1,0 +1,8 @@
+import = [{
+    table = "PAL_SQL.PAL_ABC::abc.CUSTOMERS"; 
+    schema = "ML_ABC"; 
+    file = "PAL_SQL.PAL_ABC:CUSTOMERS.csv";
+    header = true;
+    delimField = ","; 
+    delimEnclosing = "\"";
+}];

@@ -1,0 +1,11 @@
+import = [
+{
+    table = "PAL_SQL.PAL_LIN_REG::linear_regression.CUSTOMERS"; 
+    schema = "ML_LIN_REG"; 
+    file = "PAL_SQL.PAL_LIN_REG:CUSTOMERS.csv";
+    header = true;
+    delimField = ","; 
+    delimEnclosing = "\"";
+    
+}
+];

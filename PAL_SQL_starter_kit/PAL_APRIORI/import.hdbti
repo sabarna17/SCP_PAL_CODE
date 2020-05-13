@@ -1,0 +1,8 @@
+import = [{
+    table = "PAL_SQL.PAL_APRIORI::apriori.FCTCUSTOMERORDER"; 
+    schema = "ML_APRIORI"; 
+    file = "PAL_SQL.PAL_APRIORI:FCTCUSTOMERORDER.csv";
+    header = true;
+    delimField = ","; 
+    delimEnclosing = "\"";
+}];
